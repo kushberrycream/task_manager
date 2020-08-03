@@ -1,0 +1,34 @@
+label {
+  z-index: -200;
+}
+
+.btn_small {
+  height: 24px;
+  width: 60px;
+  line-height: 24px;
+  margin: 5px 5px;
+  padding: 0 0.5em;
+}
+
+.task_header {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .nav-wrapper {
+    position: relative;
+    height: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  nav .brand-logo.right {
+    left: auto;
+    right: auto;
+  }
+  nav .sidenav-trigger {
+      position: absolute;
+      left: 0;
+  }
+}
